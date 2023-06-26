@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>formulario</title>
+</head>
+<body>
+	<h1>INGRESE LOS SIGUIENTES DATOS</h1>
+<form action="formulario" method="post">
+<br />
+<p>
+<label for="nombre">Ingrese su Nombre:</label>
+<input type="text" id="nombre" placeholder="nombre" maxlength="15" name="nombre">
+<br />
+<p>
+<label for="Apellidos">Ingrese su Apellidos:</label>
+<input type="text" id="Apellidos" placeholder="apellidos" maxlength="20" name="apellidos">
+<p>
+<br>
+<label for="dirección">Ingrese su Direccion:</label>
+<input type="text" id="dirección" placeholder="dirección" maxlength="30" name="dirección">
+<br >
+<p>
+<label for="DNI">Ingrese su DNI:</label>
+<input type="number" id="DNI" placeholder="DNI" maxlength="8" name="DNI">
+<br />
+<p>
+	<label for="nombre">Ingrese su Genero:</label>
+<br/>
+<label for="genero-M">Masculino</label>
+<input type="radio" name="genero" id="genero-M" value="masculino"><br>
+<label for="genero-F">Femenino</label>
+<input type="radio" name="genero" id="genero-F" value="Femenino">
+<p>
+<br />
+<label for="Celular">Ingrese su Celular:</label>
+<input type="number" id="Celular" placeholder="Celular" maxlength="9" name="Celular">
+<br />
+<p>
+<label for="correo">Ingrese su Correo:</label>
+<input type="email" placeholder="correo" name="correo">
+<br />
+<p>
+<label for="Region">Region</label>
+<select name="Region" id="Region">
+	<option value="Arequipa">Arequipa</option>
+	<option value="Tacna">Tacna</option>
+	<option value="Ayacucho">Ayacucho</option>
+	<option value="Ica">Ica</option>
+	<option value="Lima">Lima</option>
+	<option value="Puno">Puno</option>
+	<option value="Cusco">Cusco</option>
+</select>
+<br />
+<p>
+<textarea name="Comentario" id="Comentario" placeholder="Comentario"></textarea>
+<p>
+<br>
+<p>Terminando de rellenar sus datos ya no podra corregirlos acepta los terminos condiciones.</p>
+<input type="checkbox" name="Terminar" id="Terminos"> <label>Terminos y Condiciones</label>
+	<a type="submit" href="file:///C:/Users/JOSHUA/Desktop/curriculo/resultado.html">ENVIAR</a>
+
+</form>
+</body>
+</html>
+
